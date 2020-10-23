@@ -5,7 +5,7 @@ public class Iteration_do_while {
         int tal = Integer.parseInt(JOptionPane.showInputDialog("Vilket tal?"));
         int i = 1;
         do {
-            System.out.println(i * tal);
+            System.out.println(i + "*" + tal + "=" + i * tal);
             i++;
         } while (i < 11);
     }
