@@ -4,9 +4,10 @@ public class Iteration_diagnos {
     public static void main(String[] args) {
         String igen = "ja";
         while (igen.equals("ja")) {
-            int i = 1;
-            int tal = Integer.parseInt(JOptionPane.showInputDialog("Vilket tal?"));
-            while (i < 11) {
+            int i = Integer.parseInt(JOptionPane.showInputDialog("Vart ska tabellen börja?"));
+            int slut = Integer.parseInt(JOptionPane.showInputDialog("Vart ska tabellen sluta?"));
+            int tal = Integer.parseInt(JOptionPane.showInputDialog("Vilket tal ska multipliceras?"));
+            while (i <= slut) {
                 System.out.println(i + "*" + tal + "=" + i * tal);
                 i++;
             }
