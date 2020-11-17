@@ -1,5 +1,6 @@
+package GissaTalet;
+
 import javax.swing.*;
-import java.awt.*;
 
 public class GissaTalet {
     public static void main(String[] args) {
